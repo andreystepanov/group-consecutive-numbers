@@ -1,6 +1,6 @@
 {
   "name": "group-consecutive-numbers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Group all consecutive numbers in array",
   "main": "dist/index.js",
   "scripts": {
