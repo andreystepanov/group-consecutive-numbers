@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ignores all non number values 1`] = `
+Array [
+  Array [
+    1,
+    2,
+  ],
+  Array [
+    7,
+    8,
+  ],
+]
+`;
+
+exports[`removes duplicates and sorts numbers 1`] = `
+Array [
+  Array [
+    1,
+    2,
+  ],
+  Array [
+    6,
+    7,
+    8,
+  ],
+]
+`;
+
+exports[`return only groups with min length 1`] = `
+Array [
+  Array [
+    6,
+    7,
+    8,
+    9,
+  ],
+]
+`;
